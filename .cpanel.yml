@@ -2,5 +2,5 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/nathant1/public_html/
-    - /bin/cp index.html $DEPLOYPATH
-    - /bin/cp style.css $DEPLOYPATH
+    - /cgi-bin index.html $DEPLOYPATH
+    - /cgi-bin style.css $DEPLOYPATH
