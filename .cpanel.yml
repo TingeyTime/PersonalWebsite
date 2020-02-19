@@ -4,3 +4,4 @@ deployment:
     - export DEPLOYPATH=/home/nathant1/public_html/
     - /bin index.html $DEPLOYPATH
     - /bin style.css $DEPLOYPATH
+    
