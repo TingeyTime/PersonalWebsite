@@ -2,3 +2,4 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/nathant1/public_html/website/
+    - // website.html $DEPLOYPATH
