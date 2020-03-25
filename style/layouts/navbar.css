@@ -1,0 +1,81 @@
+@import 'all.css';
+
+header
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 5%;
+    background-color: #24252A;
+}
+
+header li, header button, header a
+{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+.logo
+{
+    cursor: pointer;
+    color-adjust: economy;
+    height: 50px;
+    width: 50px;
+    transition: all 0.3s ease 0s;
+}
+
+.logo:hover
+{
+    color:#0088a9;
+}
+
+.nav_links
+{
+    list-style: none;
+}
+
+.nav_links li
+{
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav_links li a
+{
+    transition: all 0.3s ease 0s;
+}
+
+.nav_links li a:hover
+{
+    color:#0088a9;
+}
+
+header button
+{
+    padding: 9px 25px;
+    background-color: rgba(0,136,169,1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+header button:hover
+{
+    background-color: rgba(0,136,169,0.4);
+}
+
+/* The sticky class is added to the header with JS when it reaches its scroll position */
+.sticky
+{
+    position: fixed;
+    top: 0;
+    width: 100%
+}
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the header gets a new position at the top of the page (position:fixed and top:0) */
+.sticky + .content
+{
+    padding-top: 102px;
+}

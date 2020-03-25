@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Da+2:wght@500&display=swap');
+
+*
+{
+    box-sizing: border-box;
+    font-family: "Baloo Da 2", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+:root
+{
+    --text-primary: #000000;
+    --text-secondary: #002fff;
+    --bg-primary: #FFFFFF;
+    --bg-secondary: #242424;
+}
