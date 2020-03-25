@@ -16,7 +16,8 @@ main
 
 .content
 {
-    margin: 1rem 2rem 1rem 1rem;
+    margin-top: 1rem;
+    margin: 1rem;
     padding: 1rem;
 }
 
@@ -24,6 +25,7 @@ h1
 {
     display: block;
     font-size: 3em;
+    padding-top: 2rem;
     margin-top: 0.67em;
     margin-bottom: 0.67em;
     margin-left: 1rem;
