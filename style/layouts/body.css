@@ -32,3 +32,9 @@ h1
     margin-right: 0;
     font-weight: bold;
 }
+
+.address p
+{
+    line-height: 0rem;
+    font-size: 75%;
+}

@@ -7,7 +7,8 @@ footer
     align-items: center;
     padding: 10px 5%;
     background-color: #24252A;
-    position: fixed;
+    position: absolute;
+    bottom: 0;
     width: 100%;
 }
 
