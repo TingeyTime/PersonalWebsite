@@ -1,0 +1,19 @@
+@import 'all.css';
+
+footer 
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 5%;
+    background-color: #24252A;
+    position: fixed;
+    width: 100%;
+}
+
+footer li, footer button, footer a, footer div p
+{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
