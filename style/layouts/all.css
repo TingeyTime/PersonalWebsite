@@ -10,8 +10,10 @@
 
 :root
 {
-    --text-primary: #000000;
-    --text-secondary: #002fff;
-    --bg-primary: #FFFFFF;
-    --bg-secondary: #242424;
+    --color-1: rgba(0, 0, 0, 1);
+    --color-2: rgba(165, 4, 4, 1);
+    --color-3: rgba(36, 37, 42, 1);
+    --color-4: rgba(84, 84, 84, 1);
+    --color-5: rgb(0, 138, 117);
+    --color-6: rgba(240, 240, 240, 1);
 }

@@ -6,13 +6,14 @@ header
     justify-content: space-between;
     align-items: center;
     padding: 10px 5%;
-    background-color: #24252A;
+    backdrop-filter: blur(10px);
+    background-color: var(--color-4);
 }
 
 header li, header button, header a
 {
     text-decoration: none;
-    color: white;
+    color: var(--color-6);
     font-size: 20px;
 }
 
@@ -27,7 +28,7 @@ header li, header button, header a
 
 .logo:hover
 {
-    color:#0088a9;
+    filter: invert(100%);
 }
 
 .nav_links
@@ -48,13 +49,13 @@ header li, header button, header a
 
 .nav_links li a:hover
 {
-    color:#0088a9;
+    color: var(--color-1);
 }
 
 header button
 {
     padding: 9px 25px;
-    background-color: rgba(0,136,169,1);
+    background-color: var(--color-5);
     border: none;
     border-radius: 50px;
     cursor: pointer;
@@ -63,11 +64,10 @@ header button
 
 header button:hover
 {
-    background-color: rgba(0,136,169,0.4);
+    filter: invert(80%);
 }
 
 header.header
 {
-    position: fixed;
     width: 100%;
 }

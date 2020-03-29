@@ -1,0 +1,5 @@
+.video
+{
+    background-color: var(--color-1);
+    border: 20px solid var(--color-1);
+}

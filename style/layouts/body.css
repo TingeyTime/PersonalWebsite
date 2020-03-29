@@ -2,35 +2,39 @@
 
 body
 {
-    color: var(--text-primary);
-    background-color: var(--bg-primary);
+    color: var(--color-6);
     margin: 0;
     padding: 0;
 }
 
+body
+{
+    background-image: url("../../Media/Images/background_home2.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    backdrop-filter: opacity(40%);
+}
+
 main
 {
-    margin-top: 0;
     padding: 1rem 10%;
 }
 
 .content
 {
-    margin-top: 1rem;
     margin: 1rem;
     padding: 1rem;
+    backdrop-filter: blur(10px);
 }
 
 h1
 {
     display: block;
     font-size: 3em;
-    padding-top: 2rem;
-    margin-top: 0.67em;
-    margin-bottom: 0.67em;
-    margin-left: 1rem;
-    margin-right: 0;
+    margin: .5rem 1rem;
     font-weight: bold;
+    color: var(--color-6);
 }
 
 .address p
