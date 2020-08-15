@@ -1,6 +1,6 @@
 .icon
 {
-    width: 30px;
+    max-width: 30px;
     padding: 1%;
     transition: all 0.8s ease 0s;
     cursor: pointer;

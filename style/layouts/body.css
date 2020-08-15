@@ -28,9 +28,26 @@ main
     backdrop-filter: blur(10px);
 }
 
+.section
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.content p
+{
+    margin: 20px auto 5px auto;
+    text-indent: 10%;
+}
+
+.content p + p
+{
+    margin: 5px auto 5px auto;
+}
+
 h1
 {
-    display: block;
+    
     font-size: 3em;
     margin: .5rem 1rem;
     font-weight: bold;

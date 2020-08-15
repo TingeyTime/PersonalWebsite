@@ -21,8 +21,8 @@ header li, header button, header a
 {
     cursor: pointer;
     color-adjust: economy;
-    height: 50px;
-    width: 50px;
+    max-width: 50px;
+    height: auto;
     transition: all 0.3s ease 0s;
 }
 

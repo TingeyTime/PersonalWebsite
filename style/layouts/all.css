@@ -17,3 +17,12 @@
     --color-5: rgb(0, 138, 117);
     --color-6: rgba(240, 240, 240, 1);
 }
+
+@media only screen and (max-width: 620px)
+{
+    .menu .main .content .right
+    {
+        width: 100%;
+        margin: 0px;
+    }
+}
