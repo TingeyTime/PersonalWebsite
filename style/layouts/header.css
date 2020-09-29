@@ -65,9 +65,29 @@ header button
 header button:hover
 {
     filter: invert(80%);
+    transition: all 0.3s ease 0s;
 }
 
-header.header
+header .header
 {
     width: 100%;
+}
+
+@media only screen and (max-width:800px)
+{
+    header
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;      
+    }
+
+    .nav_links
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
 }
