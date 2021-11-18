@@ -1,5 +1,6 @@
 {
     "cSpell.words": [
         "Timp"
-    ]
+    ],
+    "livePreview.defaultPreviewPath": "/src/index.html"
 }
