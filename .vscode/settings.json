@@ -1,6 +1,10 @@
 {
     "cSpell.words": [
-        "Timp"
+        "appspot",
+        "firebaseapp",
+        "personalwebsite",
+        "Timp",
+        "WCAG"
     ],
     "livePreview.defaultPreviewPath": "/src/index.html"
 }
