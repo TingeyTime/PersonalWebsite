@@ -1,5 +1,24 @@
 {
   "dependencies": {
-    "firebase": "^9.5.0"
-  }
+    "firebase": "^9.5.0",
+    "firebase-admin": "^10.0.0",
+    "firebase-functions": "^3.16.0"
+  },
+  "name": "personalwebsite",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TingeyTime/PersonalWebsite.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TingeyTime/PersonalWebsite/issues"
+  },
+  "homepage": "https://github.com/TingeyTime/PersonalWebsite#readme",
+  "description": ""
 }
