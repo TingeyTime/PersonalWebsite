@@ -80,6 +80,21 @@
   }
 }
 
+a .SkipToMain {
+  position: absolute;
+  left: -10000px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+
+a .SkipToMain:focus {
+  height: auto;
+  position: static;
+  width: auto;
+}
+
 body {
   margin: 0;
   font-family: var(--bs-body-font-family);
