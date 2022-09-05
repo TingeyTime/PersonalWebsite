@@ -1,8 +1,10 @@
 <template>
-    <h1 class="text-sky-800 text-9xl">Hello World!</h1>
-    <BaseSection>
-        <p>Stuff</p>
-    </BaseSection>
+        <BaseSection>
+            <h1 class="text-9xl">Hello World!</h1>
+        </BaseSection>
+        <BaseSection>
+            <p>Things</p>
+        </BaseSection>
 </template>
 
 <script>

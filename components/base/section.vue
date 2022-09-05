@@ -1,6 +1,6 @@
 <template>
     <section>
-        <div class="container mx-auto px-4 py-4">
+        <div class="container bg-slate-600 rounded-2xl">
             <slot></slot>
         </div>
     </section>

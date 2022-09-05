@@ -1,6 +1,8 @@
 <template>
-    <BaseNavbar></BaseNavbar>
-    <slot />
+    <div class="block">
+        <BaseNavbar></BaseNavbar>
+        <slot></slot>
+    </div>
 </template>
 
 <script>
