@@ -9,7 +9,15 @@ module.exports = {
   ],
   darkMode: 'media',
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        'textPrimary': '#0072ff',
+        'textSecondary': '#87cefa',
+        'textTertiary': '#f0ad4e',
+        'textAccent': '#f0ad4e',
+        'textbackground': '#ffffff'
+      }
+    },
   },
   plugins: [
     
