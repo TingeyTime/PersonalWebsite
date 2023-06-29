@@ -3,7 +3,7 @@
     <nav class="px-2 sm:px-4  dark:bg-gray-900">
         <div class="container flex flex-wrap justify-between items-center mx-auto py-2 px-1">
             <a href="https://nathantingey.com/" class="flex items-center">
-                <img src="@/src/favicon.ico" class="mr-3 h-6 sm:h-9" alt="">
+                <img src="@/favicon.ico" class="mr-3 h-6 sm:h-9" alt="">
                 <span class="self-center text-xl font-semibold whitespace-nowrap dark:text-white">Nathan Tingey</span>
             </a>
             <div class="flex md:order-2">
