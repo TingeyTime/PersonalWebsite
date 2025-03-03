@@ -16,6 +16,7 @@ module.exports = {
     },
     extend: {
       colors: {
+        highlightYellow: '#fff9b1', // Customize the highlighter color
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
